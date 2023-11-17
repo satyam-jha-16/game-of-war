@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+button{
+    margin: 0.625rem auto 0.625rem 1rem;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.312rem;
+    color: rgb(222, 65, 65);
+    font-weight: bolder;
+    background-color:white;
+    font-size: 15px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+}
+#get-cards{
+    margin: 0.625rem auto 0.625rem auto;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+}
+.image-p{
+    width: 200px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.625rem;
+    border: 3px solid white;
+    border-radius: 1rem;
+}
+#get-cards:disabled{
+    cursor: not-allowed;
+}
